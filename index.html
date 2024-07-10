@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESAYKEH FARM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>SESAYKEH FARM</h1></div>
+                <ul class="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="./contact.html">SERVICES</a></li>
+                    <li><a href="./service.html">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./menu-btn.png" alt=""></div>
+            </nav>
+            <div class="header-content">
+                <h1>SESAYKEH FARM</h1>
+                <P>High Quality Livestock Farming & <br>
+                      Boyliers, Layers Farming</P>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+            <img src="./img.goat.png.jpg" alt="">
+            <h1>Livestock Farming</h1>
+            <p>We have Healthy Goat, at our Farm</p>
+        </div>
+        <div class="service">
+            <img src="./img.sheep.png.jpg" alt="">
+            <h1>Poultry Farming</h1>
+            <p>We have Healthy Sheep, at our Farm</p>
+        </div>
+        <div class="service">
+            <img src="./img.goat.png.jpg" alt="">
+            <h1>Fish Farming</h1>
+            <p>We have Healthy Cow, at our Farm</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>Sesaykeh Farm is the right place to be, in sesaykeh Farm we have Quality Livestock Farming
+                poultry Farming, Fishing Farming, come and have the best from us
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="./about.png" alt="" />
+        </div>
+    </section>
+
+    <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>TALK TO US</h1>
+            <p>Have any questions? we are always open to talk about our business
+                and how we can help you with anything you might need.
+            </p>
+                <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">SESAYKEH FARM</h1>
+        <p>02022 Sesaykeh Farm. All right reserved</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

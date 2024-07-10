@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESAYKEH FARM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>SESAYKEH FARM</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="./service.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./menu-btn.png" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="container">
+        <form action="#">
+            <h1>Get In Touch</h1>
+
+            <div class="inputsWrapper">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Phone Number">
+                <input type="email" name="" id="" placeholder="Email">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button class="primary-btn">SEND NOW</button>
+            </div>
+        </form>
+        <div class="address">
+            <h1>Talk to us</h1>
+
+            <div class="detailsWrapper">
+                <div class="details">
+                    <img src="./email.png" alt="">
+                    <div class="text">
+                        <h6>EMAIL</h6>
+                        <p>something@example.com</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="./phone.png" alt="">
+                    <div class="text">
+                        <h6>PHONE NUMBER</h6>
+                        <p>+232 77224236</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="./location.png" alt="">
+                    <div class="text">
+                        <h6>ADDRESS</h6>
+                        <p>22 Bangura Road, <br />
+                            Western Area, 24444
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="followsUsWrapper">
+                <h3>Follow Us</h3>
+                <ul class="socialLink">
+                    <li>
+                        <a href="" > <img src="./facebook.png" alt=""> </a>
+                    </li>
+                    <li>
+                        <a href="" > <img src="./video.png" alt=""> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="container">
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">SESAYKEH FARM</h1>
+        <p>02022 Sesaykeh Farm. All right reserved</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESAYKEH FARM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>SESAYKEH FARM</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./menu-btn.png" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>SERVICES</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>SERVICES</h1>
+            <p>Sesaykeh Farm is the right place to be, in sesaykeh Farm we have Quality Livestock Farming
+                poultry Farming, Fishing Farming, come and have the best from us
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="./about.png" alt="" />
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
